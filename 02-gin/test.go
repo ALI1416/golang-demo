@@ -6,11 +6,6 @@ import (
 	"net/http"
 )
 
-// 初始化项目 go mod init test
-// 安装gin框架 go get -u github.com/gin-gonic/gin
-// 更新依赖 go mod tidy
-// https://www.cnblogs.com/neural-networker/p/19009923
-
 func main() {
 	// 初始化一个Gin引擎实例
 	r := gin.Default()
