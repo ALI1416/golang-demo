@@ -46,10 +46,10 @@ func main() {
 	fmt.Printf("2位小数: %.2f 4位小数: %.4f\n", price, price)
 	// 多行文本
 	message := `
-    Hello
-    Hello
-    Hello
-    `
+	Hello
+	Hello
+	Hello
+	`
 	fmt.Println(message)
 
 	/* 字符串操作 */

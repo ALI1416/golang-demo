@@ -44,12 +44,12 @@ func main() {
 		fmt.Printf("%s: 成绩=%d\n", name, score)
 	}
 
-	//8. 只获取key
+	// 8. 只获取key
 	for k := range studentScores {
 		fmt.Printf("%s\n", k)
 	}
 
-	// 8. 获取Map长度
+	// 9. 获取Map长度
 	fmt.Println("学生人数:", len(studentScores))
 
 }
