@@ -3,6 +3,10 @@
 
 package types
 
+type ListItem struct {
+	Value string `json:"value"`
+}
+
 type Request struct {
 	Name string `path:"name,options=you|me"`
 }
