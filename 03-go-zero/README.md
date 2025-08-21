@@ -1,3 +1,7 @@
+# go-zero
+
+## API
+
 1. 安装go-zero脚手架goctl `go install github.com/zeromicro/go-zero/tools/goctl`
 2. 初始化项目test `go mod init test`
 3. 安装go-zero框架 `go get -u github.com/zeromicro/go-zero`
@@ -12,3 +16,9 @@
 12. 修改文件`internal/logic/listlogic.go`，新增返回
 13. 运行服务 `go run demo.go`
 14. 访问链接`http://localhost:8888/list/get`
+
+## MySQL
+
+1. 新建MySQL表创建语句 `user.sql`
+2. 生成模型 `goctl model mysql ddl --src user.sql --dir mysql`
+3. 安装依赖 `go mod tidy`
